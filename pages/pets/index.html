@@ -11,6 +11,18 @@
 </head>
 
 <body>
+    <div style="display: none;">
+        <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+            <symbol id="right1">
+            </symbol>
+            <symbol id="right2">
+            </symbol>
+            <symbol id="left1">
+            </symbol>
+            <symbol id="left2">
+            </symbol>
+        </svg>
+    </div>
     <header class="header-section">
         <div class="wrapper">
             <div class="header">
@@ -23,9 +35,9 @@
                 </div>
                 <nav class="header__nav">
                     <ul class="header__nav-links">
-                        <li class="nav-link "><a href="../../main/index.html">About the shelter</a></li>
+                        <li class="nav-link "><a href="../../pages/main/index.html">About the shelter</a></li>
                         <li class="nav-link active-link"><a href="#our">Our pets</a></li>
-                        <li class="nav-link"><a href="../../main/index.html#help">Help the shelter</a></li>
+                        <li class="nav-link"><a href="../../pages/main/index.html#help">Help the shelter</a></li>
                         <li class="nav-link"><a href="#contacts">Contacts</a></li>
                     </ul>
                 </nav>
@@ -48,12 +60,12 @@
                     <div class="buttons">
                         <div class="circle circle-left inactive">
                             <svg class="logo ">
-                                <use href="../../assets/images/left2.svg#left"></use>
+                                <use xlink:href="#left2"></use>
                             </svg>
                         </div>
                         <div class="circle circle-prev inactive">
                             <svg class="logo ">
-                                <use xlink:href="../../assets/images/left1.svg#prev"></use>
+                                <use xlink:href="#left1"></use>
                             </svg>
                         </div>
                         <div class="circle-number">
@@ -61,12 +73,12 @@
                         </div>
                         <div class="circle circle-next">
                             <svg class="logo">
-                                <use href="../../assets/images/left2.svg#next"></use>
+                                <use xlink:href="#right1"></use>
                             </svg>
                         </div>
                         <div class="circle circle-right">
                             <svg class="logo">
-                                <use href="../../assets/images/left2.svg#right"></use>
+                                <use xlink:href="#right2"></use>
                             </svg>
                         </div>
                     </div>

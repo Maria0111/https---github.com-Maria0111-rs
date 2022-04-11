@@ -8,7 +8,7 @@ function showCard() {
         card.classList.add('card')
         const img = document.createElement('img')
         img.classList.add('card-img')
-        img.src = `/assets/images/${el}.png`
+        img.src = `../../assets/images/${el}.png`
         img.alt = 'animal'
         slider.append(card)
         card.append(img)
